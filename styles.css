@@ -1,0 +1,17 @@
+.game-container {
+    width: 100%;
+    height: 100%;
+}
+
+#dodge-btn {
+    /* Absolute allows us to change the top/left coordinates freely */
+    position: absolute; 
+    
+    /* Center it initially */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* Smooth sliding effect when it moves */
+    transition: all 0.2s ease; 
+}

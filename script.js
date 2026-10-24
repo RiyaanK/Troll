@@ -32,5 +32,5 @@ button.addEventListener('touchstart', function(e) {
 // 3. Cheating Catch: Handles keyboard cheaters or extreme speed
 button.addEventListener('click', function(e) {
     e.preventDefault();
-    alert("Impossible! You actually caught it! 🛑");
+    alert("Impossible! You actually caught it! but since you did, it shows that you tried, or atleast you cared and attempted to click it. So, here's a cookie 🍪 for you! also, if you actually did it, then message uhuh with the sparkle and hand waving emojis!");
 });
